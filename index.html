@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2a1249">
+
+<!-- ============================================================
+     PRIMARY SEO
+     ============================================================ -->
+<title>Caneyville, KY | Community Guide, Business Directory &amp; History</title>
+<meta name="description" content="Caneyville, Kentucky (pop. 529) community guide for Grayson County. Local business directory, town history, Purple Flash heritage, Caneyville Community Club, schools, and city resources.">
+<link rel="canonical" href="https://caneyville.org/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Caneyville Community Guide">
+<meta name="geo.region" content="US-KY">
+<meta name="geo.placename" content="Caneyville, Kentucky">
+<meta name="geo.position" content="37.4234;-86.4869">
+<meta name="ICBM" content="37.4234, -86.4869">
+
+<!-- ============================================================
+     OPEN GRAPH / SOCIAL
+     ============================================================ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Caneyville, Kentucky">
+<meta property="og:title" content="Caneyville, KY | Community Guide, Business Directory &amp; History">
+<meta property="og:description" content="A small community with a big heart. Local business directory, town history, and resources for Caneyville, Kentucky in Grayson County.">
+<meta property="og:url" content="https://caneyville.org/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://caneyville.org/og-image.jpg">
+<meta property="og:image:alt" content="Caneyville, Kentucky — a small community with a big heart.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Caneyville, KY | Community Guide &amp; Business Directory">
+<meta name="twitter:description" content="A small community with a big heart. Business directory, history, and resources for Caneyville, Kentucky.">
+
+<!-- ============================================================
+     FONTS
+     ============================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@700;800&family=Public+Sans:wght@400;600;700&display=swap">
+
+<style>
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root{
+  --ink:#180c2b;
+  --purple-900:#2a1249;
+  --purple-800:#3a1a5e;
+  --purple-700:#4a2574;
+  --purple-600:#5e3390;
+  --purple-100:#ece5f6;
+  --purple-50:#f6f2fb;
+
+  --gold:#f2b800;
+  --gold-600:#c69600;
+  --gold-deep:#8a6800;      /* AA-safe gold for text on cream */
+
+  --cream:#faf7f0;
+  --paper:#ffffff;
+  --rule:#ded5c8;
+
+  --text:#241a33;
+  --text-mute:#5d5468;
+
+  --shadow-sm:0 1px 2px rgba(24,12,43,.08);
+  --shadow-md:0 4px 16px rgba(24,12,43,.10);
+  --shadow-lg:0 12px 40px rgba(24,12,43,.16);
+
+  --font-display:"Bitter",Georgia,"Times New Roman",serif;
+  --font-body:"Public Sans","Helvetica Neue",Helvetica,sans-serif;
+
+  --wrap:1180px;
+  --gut:clamp(1.15rem,4vw,2.5rem);
+  --radius:3px;
+
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.42'/%3E%3C/svg%3E");
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:5.25rem}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+body{
+  font-family:var(--font-body);
+  font-size:clamp(1rem,.97rem + .16vw,1.075rem);
+  line-height:1.68;
+  color:var(--text);
+  background:var(--cream);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--purple-700);text-underline-offset:.18em;text-decoration-thickness:.07em}
+a:hover{color:var(--purple-600)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+ul{list-style:none}
+
+/* ============================================================
+   TYPE SCALE
+   ============================================================ */
+h1,h2,h3,h4{font-family:var(--font-display);line-height:1.1;letter-spacing:-.015em;color:var(--purple-900)}
+h2{font-size:clamp(1.65rem,1.3rem + 1.7vw,2.5rem);font-weight:800}
+h3{font-size:clamp(1.12rem,1.05rem + .35vw,1.3rem);font-weight:700}
+p{margin-bottom:1.15em}
+p:last-child{margin-bottom:0}
+
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gut)}
+.skip{
+  position:absolute;left:-9999px;top:0;z-index:9999;
+  background:var(--gold);color:var(--ink);font-weight:700;
+  padding:.85rem 1.4rem;border-radius:0 0 var(--radius) 0;
+}
+.skip:focus{left:0}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.masthead{
+  position:sticky;top:0;z-index:900;
+  background:var(--purple-900);
+  border-bottom:3px solid var(--gold);
+}
+.masthead__inner{
+  max-width:var(--wrap);margin-inline:auto;padding:.7rem var(--gut);
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+}
+.brand{
+  display:flex;align-items:center;gap:.6rem;
+  text-decoration:none;color:#fff;
+  font-family:var(--font-display);font-weight:800;
+  font-size:clamp(1.02rem,.95rem + .38vw,1.28rem);
+  letter-spacing:-.02em;line-height:1.05;
+}
+.brand__mark{
+  flex:0 0 auto;width:2.15rem;height:2.15rem;border-radius:50%;
+  background:var(--gold);color:var(--purple-900);
+  display:grid;place-items:center;
+  font-size:.95rem;font-weight:800;letter-spacing:-.04em;
+}
+.brand__sub{display:block;font-family:var(--font-body);font-size:.6rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--gold);margin-top:.12rem}
+
+/* Nav toggle */
+.navtoggle{
+  appearance:none;border:1.5px solid rgba(255,255,255,.28);background:transparent;
+  color:#fff;border-radius:var(--radius);
+  width:2.85rem;height:2.6rem;min-height:44px;min-width:44px;
+  display:grid;place-items:center;cursor:pointer;gap:4px;
+}
+.navtoggle:hover{border-color:var(--gold)}
+.navtoggle span{display:block;width:19px;height:2px;background:currentColor;transition:transform .25s,opacity .2s}
+.navtoggle[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.navtoggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.navtoggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+.nav{
+  position:fixed;inset:3.9rem 0 0 0;
+  background:var(--purple-900);
+  padding:1.25rem var(--gut) 2.5rem;
+  overflow-y:auto;
+  transform:translateY(-100%);opacity:0;visibility:hidden;
+  transition:transform .3s ease,opacity .25s ease,visibility .3s;
+}
+.nav[data-open="true"]{transform:translateY(0);opacity:1;visibility:visible}
+.nav ul{display:flex;flex-direction:column}
+.nav a{
+  display:block;color:#fff;text-decoration:none;
+  font-family:var(--font-display);font-weight:700;font-size:1.12rem;
+  padding:.95rem .2rem;min-height:44px;
+  border-bottom:1px solid rgba(255,255,255,.1);
+}
+.nav a:hover,.nav a:focus{color:var(--gold)}
+
+@media (min-width:60em){
+  .navtoggle{display:none}
+  .nav{
+    position:static;inset:auto;padding:0;background:none;overflow:visible;
+    transform:none;opacity:1;visibility:visible;
+  }
+  .nav ul{flex-direction:row;gap:.35rem;align-items:center}
+  .nav a{
+    font-family:var(--font-body);font-size:.875rem;font-weight:600;
+    padding:.5rem .7rem;border:0;border-radius:var(--radius);
+    letter-spacing:.01em;
+  }
+  .nav a:hover{background:rgba(255,255,255,.09);color:var(--gold)}
+}
+
+/* ============================================================
+   HERO — flat civic poster, no image dependency
+   ============================================================ */
+.hero{
+  position:relative;isolation:isolate;
+  background:var(--purple-900);
+  color:#fff;
+  padding:clamp(3rem,9vw,6rem) 0 clamp(3.5rem,8vw,5rem);
+  overflow:hidden;
+}
+.hero::before{
+  content:"";position:absolute;inset:0;z-index:-2;
+  background:repeating-linear-gradient(115deg,
+    transparent 0 34px,
+    rgba(242,184,0,.05) 34px 36px);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background-image:var(--grain);opacity:.16;mix-blend-mode:overlay;
+  pointer-events:none;
+}
+.hero__eyebrow{
+  display:inline-flex;align-items:center;gap:.5rem;
+  font-size:.68rem;font-weight:700;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:1.15rem;
+}
+.hero__eyebrow::before{content:"";width:26px;height:2px;background:var(--gold)}
+.hero h1{
+  color:#fff;font-weight:800;
+  font-size:clamp(2.5rem,1.4rem + 5.4vw,5rem);
+  letter-spacing:-.035em;line-height:.94;
+  margin-bottom:.5rem;
+  text-wrap:balance;
+}
+.hero h1 em{font-style:normal;color:var(--gold);display:block}
+.hero__motto{
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(1.05rem,.95rem + .55vw,1.4rem);
+  color:#e6dcf3;max-width:32ch;margin-top:1.1rem;
+  border-left:3px solid var(--gold);padding-left:1rem;
+}
+.hero__facts{
+  display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2rem;
+}
+.hero__facts li{
+  font-size:.76rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
+  padding:.42rem .8rem;border-radius:100px;
+}
+
+/* ============================================================
+   QUICK ACTIONS
+   ============================================================ */
+.quick{
+  background:var(--purple-800);
+  padding:0 0 clamp(2rem,5vw,3rem);
+}
+.quick__grid{
+  display:grid;gap:.75rem;
+  grid-template-columns:1fr;
+  margin-top:-1px;
+}
+@media (min-width:34em){.quick__grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:60em){.quick__grid{grid-template-columns:repeat(4,1fr)}}
+.quick__card{
+  display:flex;flex-direction:column;gap:.3rem;
+  background:var(--paper);border-radius:var(--radius);
+  border-left:4px solid var(--gold);
+  padding:1.05rem 1.1rem;min-height:44px;
+  text-decoration:none;color:var(--text);
+  box-shadow:var(--shadow-md);
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.quick__card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.quick__card b{font-family:var(--font-display);font-size:1rem;color:var(--purple-900);line-height:1.25}
+.quick__card span{font-size:.8rem;color:var(--text-mute);line-height:1.45}
+
+/* ============================================================
+   SECTIONS
+   ============================================================ */
+.section{padding:clamp(3rem,7vw,5rem) 0;border-bottom:1px solid var(--rule)}
+.section--tint{background:var(--purple-50)}
+.section__head{margin-bottom:2rem;max-width:62ch}
+.section__num{
+  display:block;font-family:var(--font-display);font-weight:800;
+  font-size:.78rem;letter-spacing:.2em;color:var(--gold-deep);
+  margin-bottom:.55rem;
+}
+.section__head h2{margin-bottom:.7rem;text-wrap:balance}
+.section__head h2::after{
+  content:"";display:block;width:52px;height:4px;background:var(--gold);margin-top:.85rem;
+}
+.lede{font-size:1.075em;color:var(--text-mute)}
+
+.prose{max-width:68ch}
+.prose h3{margin:1.9rem 0 .55rem;color:var(--purple-800)}
+.prose h3:first-child{margin-top:0}
+
+/* Two-column at desktop */
+.split{display:grid;gap:clamp(1.75rem,4vw,3rem)}
+@media (min-width:62em){.split{grid-template-columns:1.65fr 1fr;align-items:start}}
+
+/* ============================================================
+   CARDS / SIDEBAR
+   ============================================================ */
+.card{
+  background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);
+  padding:1.4rem;box-shadow:var(--shadow-sm);
+}
+.card--dark{background:var(--purple-900);border-color:var(--purple-900);color:#e9e2f2}
+.card--dark h3{color:var(--gold)}
+.card--dark a{color:var(--gold)}
+.card--flash{
+  background:var(--purple-100);border:2px solid var(--purple-700);
+  text-align:center;
+}
+.card + .card{margin-top:1.25rem}
+.card h3{margin-bottom:.7rem}
+
+.stack{display:flex;flex-direction:column;gap:1.25rem}
+
+/* Officers */
+.officers{display:grid;gap:.6rem}
+.officer{
+  display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+  padding:.65rem 0;border-bottom:1px dashed rgba(255,255,255,.18);
+}
+.officer:last-child{border-bottom:0}
+.officer b{font-family:var(--font-display);font-size:1rem;color:#fff}
+.officer span{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);white-space:nowrap}
+
+/* Stats */
+.stats{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.stats caption{text-align:left;font-size:.78rem;color:var(--text-mute);padding-bottom:.6rem}
+.stats th,.stats td{padding:.6rem .3rem;text-align:left;border-bottom:1px solid var(--rule);font-size:.92rem}
+.stats th{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:var(--text-mute);font-weight:700}
+.stats td:last-child{text-align:right;font-weight:700;font-family:var(--font-display)}
+.stats tr:last-child td{border-bottom:0}
+
+/* ============================================================
+   BUSINESS DIRECTORY
+   ============================================================ */
+.dir__tools{
+  display:flex;flex-direction:column;gap:.85rem;margin-bottom:1.5rem;
+}
+.dir__search{
+  position:relative;
+}
+.dir__search input{
+  width:100%;font:inherit;font-size:1rem;
+  padding:.85rem 1rem .85rem 2.6rem;min-height:48px;
+  border:2px solid var(--rule);border-radius:var(--radius);
+  background:var(--paper);color:var(--text);
+}
+.dir__search input:focus{border-color:var(--purple-700);outline:none;box-shadow:0 0 0 3px rgba(74,37,116,.14)}
+.dir__search svg{position:absolute;left:.85rem;top:50%;transform:translateY(-50%);width:1.1rem;height:1.1rem;fill:var(--text-mute);pointer-events:none}
+
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chip{
+  font:inherit;font-size:.78rem;font-weight:700;letter-spacing:.03em;
+  padding:.5rem .85rem;min-height:38px;
+  border:1.5px solid var(--rule);border-radius:100px;
+  background:var(--paper);color:var(--text-mute);cursor:pointer;
+  transition:all .15s ease;
+}
+.chip:hover{border-color:var(--purple-700);color:var(--purple-700)}
+.chip[aria-pressed="true"]{background:var(--purple-900);border-color:var(--purple-900);color:var(--gold)}
+
+.dir__count{font-size:.82rem;color:var(--text-mute);font-weight:600}
+
+.dir__grid{
+  display:grid;gap:.9rem;grid-template-columns:1fr;list-style:none;
+}
+@media (min-width:38em){.dir__grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:64em){.dir__grid{grid-template-columns:repeat(3,1fr)}}
+
+.biz{
+  display:flex;flex-direction:column;gap:.4rem;
+  background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);
+  border-top:3px solid var(--purple-700);
+  padding:1.1rem 1.15rem;
+  box-shadow:var(--shadow-sm);
+  transition:transform .16s ease,box-shadow .16s ease,border-top-color .16s ease;
+}
+.biz:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-top-color:var(--gold)}
+.biz[hidden]{display:none}
+.biz__name{font-family:var(--font-display);font-weight:700;font-size:1.02rem;color:var(--purple-900);line-height:1.25}
+.biz__name a{color:inherit;text-decoration:none}
+.biz__name a:hover{color:var(--purple-600);text-decoration:underline}
+.biz__cat{
+  align-self:flex-start;
+  font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--gold-deep);background:#fdf6df;border:1px solid #f0e2b0;
+  padding:.2rem .5rem;border-radius:2px;
+}
+.biz__meta{font-size:.85rem;color:var(--text-mute);line-height:1.5}
+.biz__links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:.2rem}
+.biz__links a{font-size:.8rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:.25rem;min-height:32px}
+.biz__links a:hover{text-decoration:underline}
+.biz__links a::after{content:"↗";font-size:.75em;opacity:.6}
+.biz__links a[href^="tel:"]::after{content:"";}
+
+.dir__empty{
+  text-align:center;padding:2.5rem 1rem;color:var(--text-mute);
+  border:2px dashed var(--rule);border-radius:var(--radius);
+}
+
+/* ============================================================
+   FAQ
+   ============================================================ */
+.faq{max-width:76ch}
+.faq details{
+  border-bottom:1px solid var(--rule);
+  background:transparent;
+}
+.faq summary{
+  cursor:pointer;list-style:none;
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(1rem,.96rem + .2vw,1.12rem);
+  color:var(--purple-900);
+  padding:1.1rem 2.5rem 1.1rem 0;min-height:48px;
+  position:relative;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:.4rem;top:50%;transform:translateY(-50%);
+  font-size:1.5rem;font-weight:400;color:var(--gold-deep);line-height:1;
+  transition:transform .2s ease;
+}
+.faq details[open] summary::after{content:"–"}
+.faq summary:hover{color:var(--purple-600)}
+.faq__body{padding:0 0 1.3rem;color:var(--text-mute);max-width:66ch}
+
+/* ============================================================
+   SAFETY / REGISTRY
+   ============================================================ */
+.notice{
+  border:2px solid var(--purple-700);border-left-width:6px;
+  background:var(--paper);border-radius:var(--radius);
+  padding:1.25rem;margin-bottom:1.5rem;
+}
+.notice--warn{border-color:#9a2c2c;background:#fdf5f5}
+.notice p{font-size:.86rem;line-height:1.6;margin-bottom:.7rem}
+.notice p:last-child{margin-bottom:0}
+.notice strong{color:var(--purple-900)}
+.notice--warn strong{color:#7d1f1f}
+
+.sor{display:grid;gap:.6rem;grid-template-columns:1fr}
+@media (min-width:40em){.sor{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:66em){.sor{grid-template-columns:repeat(3,1fr)}}
+.sor a{
+  display:flex;align-items:center;justify-content:space-between;gap:.5rem;
+  background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);
+  padding:.8rem 1rem;min-height:48px;
+  font-weight:700;font-size:.9rem;text-decoration:none;color:var(--purple-900);
+}
+.sor a:hover{border-color:var(--purple-700);background:var(--purple-50)}
+.sor a::after{content:"Flyer ↗";font-size:.7rem;font-weight:600;color:var(--text-mute);white-space:nowrap}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.45rem;
+  background:var(--purple-900);color:#fff;
+  font-family:var(--font-body);font-weight:700;font-size:.92rem;
+  padding:.85rem 1.5rem;min-height:48px;
+  border:2px solid var(--purple-900);border-radius:var(--radius);
+  text-decoration:none;transition:all .18s ease;
+}
+.btn:hover{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.btn--gold{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.btn--gold:hover{background:var(--purple-900);border-color:var(--purple-900);color:#fff}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.foot{
+  background:var(--purple-900);color:#c9bcdd;
+  padding:clamp(2.5rem,6vw,4rem) 0 2rem;
+  border-top:4px solid var(--gold);
+  font-size:.88rem;
+}
+.foot__grid{display:grid;gap:2rem;margin-bottom:2.25rem}
+@media (min-width:48em){.foot__grid{grid-template-columns:1.4fr 1fr 1fr}}
+.foot h4{font-family:var(--font-display);color:var(--gold);font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:.9rem}
+.foot ul{display:flex;flex-direction:column;gap:.55rem}
+.foot a{color:#e0d6ef;text-decoration:none}
+.foot a:hover{color:var(--gold);text-decoration:underline}
+.foot__bar{
+  border-top:1px solid rgba(255,255,255,.14);padding-top:1.5rem;
+  display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between;
+  font-size:.78rem;color:#9c8db4;
+}
+.foot__disc{
+  background:rgba(0,0,0,.22);border-left:3px solid var(--gold);
+  padding:.9rem 1rem;border-radius:var(--radius);
+  font-size:.78rem;line-height:1.6;margin-bottom:1.75rem;color:#bfb0d4;
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="masthead">
+  <div class="masthead__inner">
+    <a class="brand" href="/">
+      <span class="brand__mark" aria-hidden="true">CV</span>
+      <span>
+        Caneyville
+        <span class="brand__sub">Grayson County, KY</span>
+      </span>
+    </a>
+
+    <button class="navtoggle" id="navtoggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#directory">Businesses</a></li>
+        <li><a href="#community-club">Community Club</a></li>
+        <li><a href="#schools">Schools</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#safety">Safety</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="hero">
+  <div class="wrap">
+    <p class="hero__eyebrow">Grayson County &middot; Western Kentucky</p>
+    <h1>Caneyville,<em>Kentucky</em></h1>
+    <p class="hero__motto">&ldquo;A small community with a big heart.&rdquo;</p>
+    <ul class="hero__facts">
+      <li>Est. 1840</li>
+      <li>Pop. 529</li>
+      <li>ZIP 42721</li>
+      <li>Home of the Purple Flash</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================
+     QUICK ACTIONS
+     ============================================================ -->
+<div class="quick">
+  <div class="wrap">
+    <div class="quick__grid">
+      <a class="quick__card" href="https://secure.kentucky.gov/formservices/Caneyville/SewerPayments" rel="noopener">
+        <b>Pay Sewer Bill</b>
+        <span>Official Kentucky.gov payment portal</span>
+      </a>
+      <a class="quick__card" href="https://www.facebook.com/p/City-Of-Caneyville-100047549776667/" rel="noopener">
+        <b>City of Caneyville</b>
+        <span>Official city Facebook page</span>
+      </a>
+      <a class="quick__card" href="https://www.graysoncountyschools.com/o/caneyville" rel="noopener">
+        <b>Caneyville Elementary</b>
+        <span>Grayson County Schools</span>
+      </a>
+      <a class="quick__card" href="#directory">
+        <b>Business Directory</b>
+        <span>27 local businesses &amp; services</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <div class="section__head">
+          <span class="section__num">01 &mdash; Overview</span>
+          <h2>A rural gathering point in western Grayson County</h2>
+        </div>
+        <div class="prose">
+          <p class="lede">Caneyville is a home rule-class city in western Grayson County, Kentucky, with a population of 529 as of the 2020 census. U.S. Route 62 runs through the center of town and leads roughly 14 miles east to Leitchfield, the county seat.</p>
+          <p>The city covers about 1.6 square miles and sits near the forks of Caney Creek, a west-flowing tributary of the Rough River. Water from Caney Creek reaches the Green River by way of the Rough. Beyond U.S. 62, the town is served by the Western Kentucky Parkway and by Kentucky Highways 79 and 185, and it sits on the Paducah and Louisville Railway line, a short line operating on former Illinois Central track.</p>
+          <p>Despite its size, Caneyville has held a durable identity built around faith, family, agriculture, athletics, and civic pride. Rough River Dam State Resort Park lies about 15 miles to the north, and the surrounding area draws visitors to Pine Knob Theatre between Caneyville and Rough River.</p>
+        </div>
+      </div>
+
+      <aside class="stack">
+        <div class="card card--dark">
+          <h3>Population Profile</h3>
+          <table class="stats">
+            <caption style="color:#a99cbd">U.S. Census Bureau decennial counts</caption>
+            <thead>
+              <tr><th style="color:#a99cbd">Census Year</th><th style="color:#a99cbd;text-align:right">Population</th></tr>
+            </thead>
+            <tbody style="color:#e9e2f2">
+              <tr><td>2000 (peak)</td><td>627</td></tr>
+              <tr><td>2010</td><td>646</td></tr>
+              <tr><td>2020</td><td>529</td></tr>
+            </tbody>
+          </table>
+          <p style="font-size:.8rem;margin-top:1rem;color:#a99cbd">Median age is roughly 33.8 years, notably younger than Grayson County as a whole.</p>
+        </div>
+
+        <div class="card">
+          <h3>At a Glance</h3>
+          <table class="stats">
+            <tbody>
+              <tr><td>County</td><td>Grayson</td></tr>
+              <tr><td>ZIP Code</td><td>42721</td></tr>
+              <tr><td>Area Codes</td><td>270 / 364</td></tr>
+              <tr><td>Class</td><td>Home rule-class</td></tr>
+              <tr><td>Land Area</td><td>1.6 sq mi</td></tr>
+              <tr><td>Incorporated</td><td>1880</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     HISTORY
+     ============================================================ -->
+<section class="section section--tint" id="history">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">02 &mdash; History</span>
+      <h2>From cane-covered bottoms to a chartered town</h2>
+    </div>
+
+    <div class="split">
+      <div class="prose">
+        <h3>Early roots and founding</h3>
+        <p>Caneyville traces to the early nineteenth century, as settlers moved into the region following the formation of Grayson County in 1810. The town developed near the forks of Caney Creek, a waterway named for the dense stands of river cane that once filled the bottoms. That cane gave the community its name.</p>
+        <p>A post office was operating in Caneyville by 1837, establishing the settlement as a recognized local center for communication and commerce. The town received its charter in 1840 and continued growing as a small agricultural crossroads, with general stores, churches, blacksmith shops, and mills supporting the surrounding farms. The Kentucky General Assembly formally incorporated Caneyville in 1880.</p>
+
+        <h3>Growth through agriculture</h3>
+        <p>Through the nineteenth and early twentieth centuries, the economy was primarily agricultural. Families in the surrounding countryside produced tobacco, corn, livestock, and hay, and the town served as the marketplace where farmers traded goods, bought supplies, and connected with neighbors. Churches, schools, and family networks formed the backbone of daily life.</p>
+        <p>Improved roads later gave residents access to nearby communities while preserving the rural character of the town. Construction of the Western Kentucky Parkway strengthened regional connections, opening commuting options and easier access to larger markets.</p>
+
+        <h3>Basketball and the Purple Flash</h3>
+        <p>The most celebrated chapter in local memory belongs to Caneyville High School boys&rsquo; basketball. Despite a small enrollment, the program built a reputation as a genuine competitor and reached the Kentucky State High School Basketball Tournament, the Sweet Sixteen, in both 1962 and 1968. Those runs remain a source of pride across generations, and the Purple Flash name still carries through the community today.</p>
+        <p>Like many small Kentucky schools, Caneyville High School was eventually consolidated as part of broader statewide district changes.</p>
+
+        <h3>Modern Caneyville</h3>
+        <p>Today the city balances its small-town heritage with steady improvement. Recent investment has focused on quality of life, including a ballfield complex with updated playground equipment and a community walking trail, giving residents shared space for sports, exercise, and gathering. Caneyville&rsquo;s story is not one of population growth or industry. It is one of continuity.</p>
+      </div>
+
+      <aside class="stack">
+        <div class="card card--flash">
+          <h3 style="font-size:1.35rem">Purple Flash Skate Spot</h3>
+          <p style="font-size:.94rem">A nod to the community&rsquo;s basketball heritage, the Purple Flash Skate Spot sits alongside the ballfield complex and walking trail. It brings dedicated outdoor recreation to Caneyville&rsquo;s youth, tying town spirit to civic progress.</p>
+        </div>
+
+        <div class="card">
+          <h3>Notable from Caneyville</h3>
+          <p style="font-size:.94rem"><strong>Elvie Shane</strong> (born Elvie Shane Payton, 1988) is a country music singer-songwriter born and raised in Caneyville. His debut single &ldquo;My Boy&rdquo; reached the top five on the country airplay chart and was certified platinum. He has released the albums <em>Backslider</em> (2021) and <em>Damascus</em> (2024).</p>
+          <p style="font-size:.94rem;margin-top:.75rem">In October 2021 the city declared October 11 as Elvie Shane Day and presented him a key to the city during a hometown celebration.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ANABAPTIST COMMUNITY
+     ============================================================ -->
+<section class="section" id="christian-community">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">03 &mdash; Plain Community</span>
+      <h2>The Caneyville Christian Community</h2>
+    </div>
+    <div class="prose">
+      <p class="lede">One of the most distinctive developments in Caneyville&rsquo;s modern history began in 2004, when Bryce Geiser, Andrew Hess, and Aaron Stoll founded an Anabaptist community outside town, carrying forward the vision of former Old Order Amish bishop Elmo Stoll.</p>
+      <p>The settlement drew families from Amish, German Baptist Brethren, and seeker backgrounds, and grew to roughly fifteen to eighteen households on a shared property of about 200 acres. Scholars have classified the group as &ldquo;para-Amish.&rdquo; It shares much with Old Order Mennonite and Amish practice without belonging to either. For years the community lived without public electricity or internal combustion engines, traveling by horse and buggy and running its shops on steam and propane.</p>
+      <p>The community supports itself largely through market gardening and the manufacture of Pioneer brand wood cook stoves, built in a steam-powered workshop and sold widely to plain customers across the country. A daughter settlement was established near Brownsville, about thirty miles away.</p>
+      <p>The community has changed considerably. In 2021 both the Caneyville and Brownsville settlements ended their independence and joined the Michigan Churches affiliation of the Old Order Amish. Brownsville later disbanded, and Caneyville began an affiliation with Blessed Hope Christian Fellowship near Windsor, Kentucky. As of 2025, Caneyville has adopted community vehicles and electricity in homes, with golf carts and utility vehicles used for local transportation, while keeping its original convictions about land ownership and community business.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BUSINESS DIRECTORY
+     ============================================================ -->
+<section class="section section--tint" id="directory">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">04 &mdash; Local Commerce</span>
+      <h2>Caneyville Business Directory</h2>
+      <p class="lede">Businesses and services operating in and around Caneyville, listed alphabetically. Search by name or filter by category.</p>
+    </div>
+
+    <div class="dir__tools">
+      <div class="dir__search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <label class="sr" for="bizsearch">Search Caneyville businesses</label>
+        <input type="search" id="bizsearch" placeholder="Search businesses, e.g. pharmacy, auto, salon…" autocomplete="off">
+      </div>
+
+      <div class="chips" id="chips" role="group" aria-label="Filter by category">
+        <button class="chip" data-cat="all" aria-pressed="true">All</button>
+        <button class="chip" data-cat="auto" aria-pressed="false">Auto &amp; Trucking</button>
+        <button class="chip" data-cat="retail" aria-pressed="false">Retail &amp; Grocery</button>
+        <button class="chip" data-cat="trades" aria-pressed="false">Trades &amp; Supply</button>
+        <button class="chip" data-cat="health" aria-pressed="false">Health</button>
+        <button class="chip" data-cat="care" aria-pressed="false">Personal Care</button>
+        <button class="chip" data-cat="pro" aria-pressed="false">Financial &amp; Professional</button>
+        <button class="chip" data-cat="services" aria-pressed="false">Services</button>
+      </div>
+
+      <p class="dir__count" id="dircount" role="status" aria-live="polite">Showing 27 of 27 businesses</p>
+    </div>
+
+    <ul class="dir__grid" id="dirgrid">
+
+      <li class="biz" data-cat="auto" data-name="caney creek trucking garage">
+        <span class="biz__cat">Auto &amp; Trucking</span>
+        <h3 class="biz__name"><a href="https://www.facebook.com/profile.php?id=61575146447124" rel="noopener">Caney Creek Trucking &amp; Garage</a></h3>
+        <p class="biz__meta">Trucking and garage services</p>
+        <p class="biz__links"><a href="tel:+12702304252">270-230-4252</a><a href="https://www.facebook.com/profile.php?id=61575146447124" rel="noopener">Facebook</a></p>
+      </li>
+
+      <li class="biz" data-cat="trades" data-name="caneyville builders supply lumber">
+        <span class="biz__cat">Trades &amp; Supply</span>
+        <h3 class="biz__name"><a href="https://caneyvillebuilders.com/" rel="noopener">Caneyville Builders Supply</a></h3>
+        <p class="biz__meta">Building materials and contractor supply</p>
+        <p class="biz__links"><a href="https://caneyvillebuilders.com/" rel="noopener">Website</a></p>
+      </li>
+
+      <li class="biz" data-cat="auto" data-name="caneyville car wash">
+        <span class="biz__cat">Auto &amp; Trucking</span>
+        <h3 class="biz__name">Caneyville Car Wash</h3>
+        <p class="biz__meta">P.O. Box 466, Caneyville, KY 42721</p>
+        <p class="biz__links"><a href="tel:+12708799903">270-879-9903</a></p>
+      </li>
+
+      <li class="biz" data-cat="services" data-name="crumes monuments headstones memorial">
+        <span class="biz__cat">Services</span>
+        <h3 class="biz__name"><a href="https://crumemonument.com/" rel="noopener">Crume&rsquo;s Monuments</a></h3>
+        <p class="biz__meta">Monuments and memorial markers</p>
+        <p class="biz__links"><a href="https://crumemonument.com/" rel="noopener">Website</a></p>
+      </li>
+
+      <li class="biz" data-cat="services" data-name="dermitt joyce funeral home obituaries">
+        <span class="biz__cat">Services</span>
+        <h3 class="biz__name"><a href="https://www.dermittfuneralhome.com/obits" rel="noopener">Dermitt-Joyce Funeral Home</a></h3>
+        <p class="biz__meta">Funeral services and obituaries</p>
+        <p class="biz__links"><a href="https://www.dermittfuneralhome.com/obits" rel="noopener">Obituaries</a></p>
+      </li>
+
+      <li class="biz" data-cat="retail" data-name="dollar general">
+        <span class="biz__cat">Retail &amp; Grocery</span>
+        <h3 class="biz__name"><a href="https://www.dollargeneral.com/store-directory/ky/caneyville/6906" rel="noopener">Dollar General</a></h3>
+        <p class="biz__meta">General merchandise and grocery</p>
+        <p class="biz__links"><a href="https://www.dollargeneral.com/store-directory/ky/caneyville/6906" rel="noopener">Store page</a></p>
+      </li>
+
+      <li class="biz" data-cat="trades" data-name="edwards recycling auto scrap metal">
+        <span class="biz__cat">Trades &amp; Supply</span>
+        <h3 class="biz__name"><a href="https://www.facebook.com/p/Edwards-Auto-Scrap-Metal-Recycling-LLC-100083347152079/" rel="noopener">Edwards Recycling LLC</a></h3>
+        <p class="biz__meta">1544 Morgantown Rd &middot; Auto and scrap metal recycling</p>
+        <p class="biz__links"><a href="https://www.facebook.com/p/Edwards-Auto-Scrap-Metal-Recycling-LLC-100083347152079/" rel="noopener">Facebook</a></p>
+      </li>
+
+      <li class="biz" data-cat="retail" data-name="embrys groceries grocery store">
+        <span class="biz__cat">Retail &amp; Grocery</span>
+        <h3 class="biz__name">Embry&rsquo;s Groceries</h3>
+        <p class="biz__meta">15768 Beaver Dam Road</p>
+      </li>
+
+      <li class="biz" data-cat="retail" data-name="family dollar">
+        <span class="biz__cat">Retail &amp; Grocery</span>
+        <h3 class="biz__name"><a href="https://locations.familydollar.com/ky/caneyville/601-morgantown-st" rel="noopener">Family Dollar</a></h3>
+        <p class="biz__meta">601 Morgantown St</p>
+        <p class="biz__links"><a href="https://locations.familydollar.com/ky/caneyville/601-morgantown-st" rel="noopener">Store page</a></p>
+      </li>
+
+      <li class="biz" data-cat="retail" data-name="fastway 14 valero gas station fuel">
+        <span class="biz__cat">Retail &amp; Grocery</span>
+        <h3 class="biz__name"><a href="https://www.valero.com/en-us/ProductsAndServices/Consumers/StoreLocator" rel="noopener">Fastway 14 Valero</a></h3>
+        <p class="biz__meta">Fuel and convenience store</p>
+        <p class="biz__links"><a href="https://www.valero.com/en-us/ProductsAndServices/Consumers/StoreLocator" rel="noopener">Store locator</a></p>
+      </li>
+
+      <li class="biz" data-cat="retail" data-name="for whosoever shall book store christian books">
+        <span class="biz__cat">Retail &amp; Grocery</span>
+        <h3 class="biz__name"><a href="https://forwhosoevershall.myshopify.com/" rel="noopener">For Whosoever Shall Book Store</a></h3>
+        <p class="biz__meta">Book store</p>
+        <p class="biz__links"><a href="https://forwhosoevershall.myshopify.com/" rel="noopener">Shop online</a></p>
+      </li>
+
+      <li class="biz" data-cat="pro" data-name="hannah keown realtor real estate agent homes">
+        <span class="biz__cat">Financial &amp; Professional</span>
+        <h3 class="biz__name"><a href="https://www.facebook.com/HannahKeownREALTOR" rel="noopener">Hannah Keown, REALTOR</a></h3>
+        <p class="biz__meta">Residential real estate</p>
+        <p class="biz__links"><a href="https://www.facebook.com/HannahKeownREALTOR" rel="noopener">Facebook</a></p>
+      </li>
+
+      <li class="biz" data-cat="care" data-name="head to toe hair nail services salon">
+        <span class="biz__cat">Personal Care</span>
+        <h3 class="biz__name">Head to Toe Hair &amp; Nail Services</h3>
+        <p class="biz__meta">Hair and nail salon</p>
+        <p class="biz__links"><a href="tel:+12708791111">270-879-1111</a></p>
+      </li>
+
+      <li class="biz" data-cat="care" data-name="lavernes cut above beauty salon hair">
+        <span class="biz__cat">Personal Care</span>
+        <h3 class="biz__name">Laverne&rsquo;s Cut Above</h3>
+        <p class="biz__meta">309 Sunset Drive, Caneyville, KY &middot; Beauty salon</p>
+        <p class="biz__links"><a href="tel:+12708798744">270-879-8744</a></p>
+      </li>
+
+      <li class="biz" data-cat="health" data-name="max gym fitness the max workout">
+        <span class="biz__cat">Health</span>
+        <h3 class="biz__name">The Max Gym &amp; Fitness</h3>
+        <p class="biz__meta">Gym and fitness center</p>
+      </li>
+
+      <li class="biz" data-cat="health" data-name="midway pharmacy prescriptions drug store">
+        <span class="biz__cat">Health</span>
+        <h3 class="biz__name"><a href="https://www.midwaypharmacygroup.com/locations/midway-pharmacy-caneyville" rel="noopener">Midway Pharmacy</a></h3>
+        <p class="biz__meta">Retail pharmacy and prescriptions</p>
+        <p class="biz__links"><a href="https://www.midwaypharmacygroup.com/locations/midway-pharmacy-caneyville" rel="noopener">Website</a></p>
+      </li>
+
+      <li class="biz" data-cat="auto" data-name="mudds automotive mechanic repair">
+        <span class="biz__cat">Auto &amp; Trucking</span>
+        <h3 class="biz__name">Mudd&rsquo;s Automotive</h3>
+        <p class="biz__meta">206 Morgantown Street, Caneyville, KY 42721</p>
+      </li>
+
+      <li class="biz" data-cat="health" data-name="owensboro health twin lakes medical center family medicine doctor clinic">
+        <span class="biz__cat">Health</span>
+        <h3 class="biz__name"><a href="https://www.owensborohealth.org/locations/profile/twin-lakes-family-medicine/" rel="noopener">Owensboro Health Twin Lakes Family Medicine</a></h3>
+        <p class="biz__meta">Primary care and family medicine</p>
+        <p class="biz__links"><a href="https://www.owensborohealth.org/locations/profile/twin-lakes-family-medicine/" rel="noopener">Website</a></p>
+      </li>
+
+      <li class="biz" data-cat="pro" data-name="pegasus tax financial services accountant">
+        <span class="biz__cat">Financial &amp; Professional</span>
+        <h3 class="biz__name">Pegasus Tax &amp; Financial Services</h3>
+        <p class="biz__meta">Tax preparation and financial services</p>
+        <p class="biz__links"><a href="tel:+12708790393">270-879-0393</a></p>
+      </li>
+
+      <li class="biz" data-cat="trades" data-name="performance feeds livestock feed farm agriculture">
+        <span class="biz__cat">Trades &amp; Supply</span>
+        <h3 class="biz__name"><a href="https://www.performance-feeds.com/" rel="noopener">Performance Feeds</a></h3>
+        <p class="biz__meta">Livestock and animal feed</p>
+        <p class="biz__links"><a href="https://www.performance-feeds.com/" rel="noopener">Website</a></p>
+      </li>
+
+      <li class="biz" data-cat="auto" data-name="ryan trucking co freight carrier">
+        <span class="biz__cat">Auto &amp; Trucking</span>
+        <h3 class="biz__name"><a href="https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&amp;query_type=queryCarrierSnapshot&amp;query_param=USDOT&amp;query_string=241777" rel="noopener">Ryan Trucking Co</a></h3>
+        <p class="biz__meta">Motor carrier &middot; USDOT 241777</p>
+        <p class="biz__links"><a href="https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&amp;query_type=queryCarrierSnapshot&amp;query_param=USDOT&amp;query_string=241777" rel="noopener">FMCSA snapshot</a></p>
+      </li>
+
+      <li class="biz" data-cat="pro" data-name="sacramento deposit bank banking loans">
+        <span class="biz__cat">Financial &amp; Professional</span>
+        <h3 class="biz__name"><a href="https://www.sdbweb.com/" rel="noopener">Sacramento Deposit Bank</a></h3>
+        <p class="biz__meta">Community banking</p>
+        <p class="biz__links"><a href="https://www.sdbweb.com/" rel="noopener">Website</a></p>
+      </li>
+
+      <li class="biz" data-cat="auto" data-name="small town auto spa detailing car wash">
+        <span class="biz__cat">Auto &amp; Trucking</span>
+        <h3 class="biz__name"><a href="https://www.facebook.com/people/Small-Town-Auto-Spa/100086688595302/" rel="noopener">Small Town Auto Spa</a></h3>
+        <p class="biz__meta">Auto detailing</p>
+        <p class="biz__links"><a href="https://www.facebook.com/people/Small-Town-Auto-Spa/100086688595302/" rel="noopener">Facebook</a></p>
+      </li>
+
+      <li class="biz" data-cat="services" data-name="smith road storage buildings units">
+        <span class="biz__cat">Services</span>
+        <h3 class="biz__name">Smith Road Storage Buildings</h3>
+        <p class="biz__meta">Storage buildings and units</p>
+      </li>
+
+      <li class="biz" data-cat="trades" data-name="southwest builders construction contractor johnny pharis">
+        <span class="biz__cat">Trades &amp; Supply</span>
+        <h3 class="biz__name"><a href="https://www.facebook.com/johnny.pharis" rel="noopener">Southwest Builders</a></h3>
+        <p class="biz__meta">General construction and building</p>
+        <p class="biz__links"><a href="tel:+12705898378">270-589-8378</a><a href="https://www.facebook.com/johnny.pharis" rel="noopener">Facebook</a></p>
+      </li>
+
+      <li class="biz" data-cat="care" data-name="studio 31 beauty salon hair">
+        <span class="biz__cat">Personal Care</span>
+        <h3 class="biz__name"><a href="https://www.facebook.com/studio31ky/" rel="noopener">Studio 31 Beauty Salon</a></h3>
+        <p class="biz__meta">Beauty salon</p>
+        <p class="biz__links"><a href="https://www.facebook.com/studio31ky/" rel="noopener">Facebook</a></p>
+      </li>
+
+      <li class="biz" data-cat="services" data-name="u-haul uhaul neighborhood dealer truck rental moving strings and things">
+        <span class="biz__cat">Services</span>
+        <h3 class="biz__name">U-Haul Neighborhood Dealer</h3>
+        <p class="biz__meta">Strings &amp; Things Building &middot; Truck and trailer rental</p>
+      </li>
+
+    </ul>
+
+    <p class="dir__empty" id="direpty" hidden>No businesses match that search. Try a different term or clear the filters.</p>
+
+    <p style="margin-top:1.75rem;font-size:.86rem;color:var(--text-mute)">Own a Caneyville business that should be listed here, or need a correction? <a href="mailto:me@caseykeown.com?subject=Caneyville.org%20Directory%20Update">Send an update</a>.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     COMMUNITY CLUB
+     ============================================================ -->
+<section class="section" id="community-club">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <div class="section__head">
+          <span class="section__num">05 &mdash; Civic Life</span>
+          <h2>Caneyville Community Club</h2>
+        </div>
+        <div class="prose">
+          <p class="lede">The Caneyville Community Club is the town&rsquo;s volunteer civic organization, coordinating community events, fundraising, and gathering space for residents of Caneyville and the surrounding area.</p>
+          <p>The club maintains an active Facebook group where meeting notices, event announcements, and community updates are posted. It is the fastest way to find out what is happening in town.</p>
+          <p><a class="btn" href="https://www.facebook.com/groups/191624922958153/" rel="noopener">Join the Facebook Group</a></p>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card card--dark">
+          <h3>Club Officers</h3>
+          <div class="officers">
+            <div class="officer"><b>Scott Payton</b><span>President</span></div>
+            <div class="officer"><b>George Elmore</b><span>Vice President</span></div>
+            <div class="officer"><b>Ann Brooks</b><span>Secretary</span></div>
+            <div class="officer"><b>Dana Cockrel</b><span>Treasurer</span></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SCHOOLS
+     ============================================================ -->
+<section class="section section--tint" id="schools">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">06 &mdash; Schools</span>
+      <h2>Education &amp; School Spirit</h2>
+      <p class="lede">Caneyville Elementary School serves the community as part of the Grayson County School District. The Purple Flash name carries forward from the former Caneyville High School.</p>
+    </div>
+
+    <div class="quick__grid" style="margin-top:0">
+      <a class="quick__card" href="https://www.graysoncountyschools.com/o/caneyville" rel="noopener">
+        <b>Caneyville Elementary School</b>
+        <span>Calendar, staff, news, and enrollment through Grayson County Schools</span>
+      </a>
+      <a class="quick__card" href="https://www.prepsportswear.com/school/us/kentucky/caneyville/caneyville-elementary-school-flashes?schoolid=170509" rel="noopener">
+        <b>Purple Flash Spirit Wear</b>
+        <span>Official Caneyville Elementary apparel through Prep Sportswear</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ — AEO
+     ============================================================ -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">07 &mdash; Common Questions</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq">
+      <details open>
+        <summary>Where is Caneyville, Kentucky?</summary>
+        <div class="faq__body"><p>Caneyville is located in western Grayson County, Kentucky. U.S. Route 62 passes through the center of town and leads about 14 miles east to Leitchfield, the county seat. The city is also served by the Western Kentucky Parkway and Kentucky Highways 79 and 185, roughly 100 miles southwest of Louisville.</p></div>
+      </details>
+
+      <details>
+        <summary>What is the population of Caneyville, Kentucky?</summary>
+        <div class="faq__body"><p>Caneyville had a population of 529 as of the 2020 U.S. Census. The city recorded 627 residents in 2000 and 646 in 2010, making 2010 its most recent high point.</p></div>
+      </details>
+
+      <details>
+        <summary>What county is Caneyville, Kentucky in?</summary>
+        <div class="faq__body"><p>Caneyville is in Grayson County, Kentucky. The county seat is Leitchfield, about 14 miles east on U.S. Route 62.</p></div>
+      </details>
+
+      <details>
+        <summary>What is the ZIP code for Caneyville, Kentucky?</summary>
+        <div class="faq__body"><p>The ZIP code for Caneyville, Kentucky is 42721. The area codes serving Caneyville are 270 and 364.</p></div>
+      </details>
+
+      <details>
+        <summary>When was Caneyville founded, and how did it get its name?</summary>
+        <div class="faq__body"><p>Caneyville had a post office by 1837 and received its town charter in 1840. The Kentucky General Assembly formally incorporated the city in 1880. The name comes from Caney Creek, which was itself named for the dense river cane that once covered the creek bottoms.</p></div>
+      </details>
+
+      <details>
+        <summary>What is the Caneyville Christian Community?</summary>
+        <div class="faq__body"><p>The Caneyville Christian Community is an Anabaptist plain community founded near Caneyville in 2004 by Bryce Geiser, Andrew Hess, and Aaron Stoll, following the vision of former Old Order Amish bishop Elmo Stoll. It grew to roughly fifteen to eighteen households and supports itself through market gardening and the manufacture of Pioneer brand wood cook stoves. In 2021 it joined the Michigan Churches affiliation of the Old Order Amish, and it has since adopted community vehicles and electricity in homes.</p></div>
+      </details>
+
+      <details>
+        <summary>Why is Caneyville called the Purple Flash?</summary>
+        <div class="faq__body"><p>Purple Flash was the mascot of the former Caneyville High School, whose boys&rsquo; basketball team reached the Kentucky State High School Basketball Tournament, the Sweet Sixteen, in 1962 and 1968. Though the high school was later consolidated, the Purple Flash name endures through Caneyville Elementary School and community landmarks including the Purple Flash Skate Spot.</p></div>
+      </details>
+
+      <details>
+        <summary>What school serves Caneyville, Kentucky?</summary>
+        <div class="faq__body"><p>Caneyville Elementary School serves the community as part of the Grayson County School District. Official spirit wear is available through Prep Sportswear.</p></div>
+      </details>
+
+      <details>
+        <summary>How do I pay my Caneyville sewer bill online?</summary>
+        <div class="faq__body"><p>Caneyville sewer utility payments are processed through the official Kentucky.gov secure portal at secure.kentucky.gov. The payment link is available at the top of this page.</p></div>
+      </details>
+
+      <details>
+        <summary>What businesses are in Caneyville, Kentucky?</summary>
+        <div class="faq__body"><p>Caneyville has roughly two dozen businesses, including Midway Pharmacy, Dollar General, Family Dollar, Caneyville Builders Supply, Sacramento Deposit Bank, Owensboro Health Twin Lakes Family Medicine, Dermitt-Joyce Funeral Home, Fastway 14 Valero, and several auto, salon, and trade businesses. A complete searchable directory is available on this page.</p></div>
+      </details>
+
+      <details>
+        <summary>Who is the country singer from Caneyville, Kentucky?</summary>
+        <div class="faq__body"><p>Elvie Shane, born Elvie Shane Payton in 1988, is a country music singer-songwriter from Caneyville. His platinum debut single &ldquo;My Boy&rdquo; reached the top five on the country airplay chart. The city declared October 11 as Elvie Shane Day in 2021 and presented him a key to the city.</p></div>
+      </details>
+
+      <details>
+        <summary>Who leads the Caneyville Community Club?</summary>
+        <div class="faq__body"><p>The Caneyville Community Club officers are Scott Payton (President), George Elmore (Vice President), Ann Brooks (Secretary), and Dana Cockrel (Treasurer). The club maintains an active Facebook group for events and announcements.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SAFETY / SEX OFFENDER REGISTRY
+     ============================================================ -->
+<section class="section section--tint" id="safety">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="section__num">08 &mdash; Public Safety</span>
+      <h2>Kentucky Sex Offender Registry</h2>
+      <p class="lede">The following individuals appear on the Kentucky State Police Sex Offender Registry with a Caneyville-area address. Each link opens the official KSP registry flyer.</p>
+    </div>
+
+    <div class="notice notice--warn">
+      <p><strong>KENTUCKY STATE POLICE DISCLAIMER:</strong> THE KENTUCKY STATE POLICE DOES NOT GUARANTEE THE ACCURACY OF THE INFORMATION PROVIDED UNDER KRS 525.070 &amp; 525.080. USE OF INFORMATION FROM THIS WEBSITE TO HARASS A SEX OFFENDER IS A CRIMINAL OFFENSE PUNISHABLE BY UP TO 90 DAYS IN THE COUNTY JAIL. MORE SEVERE CRIMINAL PENALTIES APPLY FOR MORE SEVERE CRIMES COMMITTED AGAINST A SEX OFFENDER.</p>
+    </div>
+
+    <div class="notice">
+      <p><strong>Verify before you rely on this list.</strong> Registry status changes as individuals move, register, or complete their registration period. This page is not the registry of record. For current information, search the official Kentucky State Police registry directly.</p>
+      <p style="margin-top:1rem"><a class="btn btn--gold" href="https://kspsor.state.ky.us/" rel="noopener">Search the Official KSP Registry</a></p>
+    </div>
+
+    <ul class="sor">
+      <li><a href="http://kspsor.state.ky.us/Home/PrintFlyer/UDiHaX9o8YXnV3LsH9F_9w" rel="noopener nofollow">David Duke</a></li>
+      <li><a href="http://kspsor.state.ky.us/Home/PrintFlyer/JEhDO-mrIa3x7WjhjG-Oug" rel="noopener nofollow">Chris Embry</a></li>
+      <li><a href="http://kspsor.state.ky.us/Home/PrintFlyer/YvKhkh8INtj2fSu-X9SE_A" rel="noopener nofollow">Wesley Hubbard</a></li>
+      <li><a href="http://kspsor.state.ky.us/Home/PrintFlyer/TGECZ-iagv6EwWFo8k1Q3Q" rel="noopener nofollow">Edward Leverich</a></li>
+      <li><a href="http://kspsor.state.ky.us/Home/PrintFlyer/erTgb3yMlce0PYOySa4hBg" rel="noopener nofollow">Daniel Mastovich</a></li>
+      <li><a href="http://kspsor.state.ky.us/Home/PrintFlyer/ga4FRrzhGhgcGC8I4Ozkiw" rel="noopener nofollow">Chad Secora</a></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <h4>Caneyville, Kentucky</h4>
+        <p style="color:#c9bcdd">A community guide for Caneyville and western Grayson County. Built and maintained locally to make it easier to find businesses, history, and civic resources in one place.</p>
+      </div>
+      <div>
+        <h4>Official Resources</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/p/City-Of-Caneyville-100047549776667/" rel="noopener">City of Caneyville (Facebook)</a></li>
+          <li><a href="https://secure.kentucky.gov/formservices/Caneyville/SewerPayments" rel="noopener">Pay Sewer Bill (Kentucky.gov)</a></li>
+          <li><a href="https://www.graysoncountyschools.com/o/caneyville" rel="noopener">Caneyville Elementary School</a></li>
+          <li><a href="https://kspsor.state.ky.us/" rel="noopener">KSP Sex Offender Registry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>On This Site</h4>
+        <ul>
+          <li><a href="#history">Town History</a></li>
+          <li><a href="#directory">Business Directory</a></li>
+          <li><a href="#community-club">Community Club</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="mailto:me@caseykeown.com?subject=Caneyville.org">Submit a Correction</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="foot__disc"><strong style="color:var(--gold)">Please note:</strong> Caneyville.org is an independent community resource. It is not operated by, endorsed by, or affiliated with the City of Caneyville municipal government. Links to city services, utility payments, and state resources point to the official government sites that administer them. For official city business, contact the City of Caneyville directly.</p>
+
+    <div class="foot__bar">
+      <span>&copy; 2026 Caneyville.org &middot; Caneyville, Kentucky 42721</span>
+      <span>Website by <a href="mailto:me@caseykeown.com">Casey Keown</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     STRUCTURED DATA — SEO / AEO
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebSite",
+      "@id":"https://caneyville.org/#website",
+      "url":"https://caneyville.org/",
+      "name":"Caneyville, Kentucky",
+      "description":"Community guide, business directory, and history for Caneyville, Kentucky in Grayson County.",
+      "inLanguage":"en-US"
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://caneyville.org/#webpage",
+      "url":"https://caneyville.org/",
+      "name":"Caneyville, KY | Community Guide, Business Directory & History",
+      "isPartOf":{"@id":"https://caneyville.org/#website"},
+      "about":{"@id":"https://caneyville.org/#city"},
+      "inLanguage":"en-US"
+    },
+    {
+      "@type":"City",
+      "@id":"https://caneyville.org/#city",
+      "name":"Caneyville",
+      "alternateName":"Caneyville, Kentucky",
+      "description":"Caneyville is a home rule-class city in western Grayson County, Kentucky, with a population of 529 as of the 2020 census. Named for Caney Creek, it had a post office by 1837, a town charter by 1840, and was incorporated in 1880.",
+      "url":"https://caneyville.org/",
+      "slogan":"A small community with a big heart.",
+      "foundingDate":"1840",
+      "geo":{"@type":"GeoCoordinates","latitude":37.4234,"longitude":-86.4869},
+      "address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"},
+      "containedInPlace":{"@type":"AdministrativeArea","name":"Grayson County, Kentucky"},
+      "sameAs":["https://en.wikipedia.org/wiki/Caneyville,_Kentucky","https://www.wikidata.org/wiki/Q2494896"]
+    },
+    {
+      "@type":"Organization",
+      "@id":"https://caneyville.org/#community-club",
+      "name":"Caneyville Community Club",
+      "description":"Volunteer civic organization coordinating community events and gatherings in Caneyville, Kentucky.",
+      "sameAs":["https://www.facebook.com/groups/191624922958153/"],
+      "areaServed":{"@id":"https://caneyville.org/#city"},
+      "employee":[
+        {"@type":"Person","name":"Scott Payton","jobTitle":"President"},
+        {"@type":"Person","name":"George Elmore","jobTitle":"Vice President"},
+        {"@type":"Person","name":"Ann Brooks","jobTitle":"Secretary"},
+        {"@type":"Person","name":"Dana Cockrel","jobTitle":"Treasurer"}
+      ]
+    },
+    {
+      "@type":"ItemList",
+      "@id":"https://caneyville.org/#directory",
+      "name":"Caneyville, Kentucky Business Directory",
+      "numberOfItems":27,
+      "itemListOrder":"https://schema.org/ItemListOrderAscending",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"item":{"@type":"AutoRepair","name":"Caney Creek Trucking & Garage","telephone":"+1-270-230-4252","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"},"sameAs":"https://www.facebook.com/profile.php?id=61575146447124"}},
+        {"@type":"ListItem","position":2,"item":{"@type":"HardwareStore","name":"Caneyville Builders Supply","url":"https://caneyvillebuilders.com/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":3,"item":{"@type":"AutoWash","name":"Caneyville Car Wash","telephone":"+1-270-879-9903","address":{"@type":"PostalAddress","postOfficeBoxNumber":"466","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":4,"item":{"@type":"LocalBusiness","name":"Crume's Monuments","url":"https://crumemonument.com/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":5,"item":{"@type":"FuneralHome","name":"Dermitt-Joyce Funeral Home","url":"https://www.dermittfuneralhome.com/obits","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":6,"item":{"@type":"Store","name":"Dollar General","url":"https://www.dollargeneral.com/store-directory/ky/caneyville/6906","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":7,"item":{"@type":"LocalBusiness","name":"Edwards Recycling LLC","address":{"@type":"PostalAddress","streetAddress":"1544 Morgantown Rd","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"},"sameAs":"https://www.facebook.com/p/Edwards-Auto-Scrap-Metal-Recycling-LLC-100083347152079/"}},
+        {"@type":"ListItem","position":8,"item":{"@type":"GroceryStore","name":"Embry's Groceries","address":{"@type":"PostalAddress","streetAddress":"15768 Beaver Dam Road","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":9,"item":{"@type":"Store","name":"Family Dollar","url":"https://locations.familydollar.com/ky/caneyville/601-morgantown-st","address":{"@type":"PostalAddress","streetAddress":"601 Morgantown St","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":10,"item":{"@type":"GasStation","name":"Fastway 14 Valero","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":11,"item":{"@type":"BookStore","name":"For Whosoever Shall Book Store","url":"https://forwhosoevershall.myshopify.com/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":12,"item":{"@type":"RealEstateAgent","name":"Hannah Keown, REALTOR","sameAs":"https://www.facebook.com/HannahKeownREALTOR","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":13,"item":{"@type":"NailSalon","name":"Head to Toe Hair & Nail Services","telephone":"+1-270-879-1111","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":14,"item":{"@type":"BeautySalon","name":"Laverne's Cut Above","telephone":"+1-270-879-8744","address":{"@type":"PostalAddress","streetAddress":"309 Sunset Drive","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":15,"item":{"@type":"ExerciseGym","name":"The Max Gym & Fitness","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":16,"item":{"@type":"Pharmacy","name":"Midway Pharmacy","url":"https://www.midwaypharmacygroup.com/locations/midway-pharmacy-caneyville","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":17,"item":{"@type":"AutoRepair","name":"Mudd's Automotive","address":{"@type":"PostalAddress","streetAddress":"206 Morgantown Street","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":18,"item":{"@type":"MedicalClinic","name":"Owensboro Health Twin Lakes Family Medicine","url":"https://www.owensborohealth.org/locations/profile/twin-lakes-family-medicine/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":19,"item":{"@type":"AccountingService","name":"Pegasus Tax & Financial Services","telephone":"+1-270-879-0393","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":20,"item":{"@type":"Store","name":"Performance Feeds","url":"https://www.performance-feeds.com/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":21,"item":{"@type":"MovingCompany","name":"Ryan Trucking Co","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":22,"item":{"@type":"BankOrCreditUnion","name":"Sacramento Deposit Bank","url":"https://www.sdbweb.com/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":23,"item":{"@type":"AutoWash","name":"Small Town Auto Spa","sameAs":"https://www.facebook.com/people/Small-Town-Auto-Spa/100086688595302/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":24,"item":{"@type":"SelfStorage","name":"Smith Road Storage Buildings","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}},
+        {"@type":"ListItem","position":25,"item":{"@type":"GeneralContractor","name":"Southwest Builders","telephone":"+1-270-589-8378","sameAs":"https://www.facebook.com/johnny.pharis","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":26,"item":{"@type":"BeautySalon","name":"Studio 31 Beauty Salon","sameAs":"https://www.facebook.com/studio31ky/","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","addressCountry":"US"}}},
+        {"@type":"ListItem","position":27,"item":{"@type":"LocalBusiness","name":"U-Haul Neighborhood Dealer","address":{"@type":"PostalAddress","addressLocality":"Caneyville","addressRegion":"KY","postalCode":"42721","addressCountry":"US"}}}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "@id":"https://caneyville.org/#faq",
+      "mainEntity":[
+        {"@type":"Question","name":"Where is Caneyville, Kentucky?","acceptedAnswer":{"@type":"Answer","text":"Caneyville is located in western Grayson County, Kentucky. U.S. Route 62 passes through the center of town and leads about 14 miles east to Leitchfield, the county seat. The city is also served by the Western Kentucky Parkway and Kentucky Highways 79 and 185, roughly 100 miles southwest of Louisville."}},
+        {"@type":"Question","name":"What is the population of Caneyville, Kentucky?","acceptedAnswer":{"@type":"Answer","text":"Caneyville had a population of 529 as of the 2020 U.S. Census. The city recorded 627 residents in 2000 and 646 in 2010."}},
+        {"@type":"Question","name":"What county is Caneyville, Kentucky in?","acceptedAnswer":{"@type":"Answer","text":"Caneyville is in Grayson County, Kentucky. The county seat is Leitchfield, about 14 miles east on U.S. Route 62."}},
+        {"@type":"Question","name":"What is the ZIP code for Caneyville, Kentucky?","acceptedAnswer":{"@type":"Answer","text":"The ZIP code for Caneyville, Kentucky is 42721. The area codes serving Caneyville are 270 and 364."}},
+        {"@type":"Question","name":"When was Caneyville founded, and how did it get its name?","acceptedAnswer":{"@type":"Answer","text":"Caneyville had a post office by 1837 and received its town charter in 1840. The Kentucky General Assembly formally incorporated the city in 1880. The name comes from Caney Creek, which was named for the dense river cane that once covered the creek bottoms."}},
+        {"@type":"Question","name":"What is the Caneyville Christian Community?","acceptedAnswer":{"@type":"Answer","text":"The Caneyville Christian Community is an Anabaptist plain community founded near Caneyville in 2004 by Bryce Geiser, Andrew Hess, and Aaron Stoll, following the vision of former Old Order Amish bishop Elmo Stoll. It grew to roughly fifteen to eighteen households and supports itself through market gardening and the manufacture of Pioneer brand wood cook stoves. In 2021 it joined the Michigan Churches affiliation of the Old Order Amish, and it has since adopted community vehicles and electricity in homes."}},
+        {"@type":"Question","name":"Why is Caneyville called the Purple Flash?","acceptedAnswer":{"@type":"Answer","text":"Purple Flash was the mascot of the former Caneyville High School, whose boys' basketball team reached the Kentucky State High School Basketball Tournament, the Sweet Sixteen, in 1962 and 1968. Though the high school was later consolidated, the Purple Flash name endures through Caneyville Elementary School and community landmarks including the Purple Flash Skate Spot."}},
+        {"@type":"Question","name":"What school serves Caneyville, Kentucky?","acceptedAnswer":{"@type":"Answer","text":"Caneyville Elementary School serves the community as part of the Grayson County School District."}},
+        {"@type":"Question","name":"How do I pay my Caneyville sewer bill online?","acceptedAnswer":{"@type":"Answer","text":"Caneyville sewer utility payments are processed through the official Kentucky.gov secure portal at secure.kentucky.gov."}},
+        {"@type":"Question","name":"What businesses are in Caneyville, Kentucky?","acceptedAnswer":{"@type":"Answer","text":"Caneyville has roughly two dozen businesses, including Midway Pharmacy, Dollar General, Family Dollar, Caneyville Builders Supply, Sacramento Deposit Bank, Owensboro Health Twin Lakes Family Medicine, Dermitt-Joyce Funeral Home, and Fastway 14 Valero, along with several auto, salon, and trade businesses."}},
+        {"@type":"Question","name":"Who is the country singer from Caneyville, Kentucky?","acceptedAnswer":{"@type":"Answer","text":"Elvie Shane, born Elvie Shane Payton in 1988, is a country music singer-songwriter from Caneyville. His platinum debut single 'My Boy' reached the top five on the country airplay chart. The city declared October 11 as Elvie Shane Day in 2021 and presented him a key to the city."}},
+        {"@type":"Question","name":"Who leads the Caneyville Community Club?","acceptedAnswer":{"@type":"Answer","text":"The Caneyville Community Club officers are Scott Payton (President), George Elmore (Vice President), Ann Brooks (Secretary), and Dana Cockrel (Treasurer)."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- Mobile nav ---------- */
+  var toggle = document.getElementById("navtoggle");
+  var nav    = document.getElementById("nav");
+
+  toggle.addEventListener("click", function(){
+    var open = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", String(!open));
+    toggle.setAttribute("aria-label", open ? "Open menu" : "Close menu");
+    nav.setAttribute("data-open", String(!open));
+    document.body.style.overflow = !open ? "hidden" : "";
+  });
+
+  nav.addEventListener("click", function(e){
+    if (e.target.tagName === "A" && window.innerWidth < 960) {
+      toggle.setAttribute("aria-expanded","false");
+      nav.setAttribute("data-open","false");
+      document.body.style.overflow = "";
+    }
+  });
+
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+      toggle.setAttribute("aria-expanded","false");
+      nav.setAttribute("data-open","false");
+      document.body.style.overflow = "";
+      toggle.focus();
+    }
+  });
+
+  /* ---------- Business directory filter ---------- */
+  var input = document.getElementById("bizsearch");
+  var chips = Array.prototype.slice.call(document.querySelectorAll("#chips .chip"));
+  var items = Array.prototype.slice.call(document.querySelectorAll("#dirgrid .biz"));
+  var count = document.getElementById("dircount");
+  var empty = document.getElementById("direpty");
+  var activeCat = "all";
+
+  function render(){
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+
+    items.forEach(function(el){
+      var matchCat  = activeCat === "all" || el.dataset.cat === activeCat;
+      var haystack  = (el.dataset.name + " " + el.textContent).toLowerCase();
+      var matchText = q === "" || haystack.indexOf(q) !== -1;
+      var visible   = matchCat && matchText;
+      el.hidden = !visible;
+      if (visible) shown++;
+    });
+
+    count.textContent = "Showing " + shown + " of " + items.length + " businesses";
+    empty.hidden = shown !== 0;
+  }
+
+  input.addEventListener("input", render);
+
+  chips.forEach(function(chip){
+    chip.addEventListener("click", function(){
+      activeCat = chip.dataset.cat;
+      chips.forEach(function(c){ c.setAttribute("aria-pressed", String(c === chip)); });
+      render();
+    });
+  });
+
+  render();
+})();
+</script>
+
+</body>
+</html>
