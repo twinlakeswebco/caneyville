@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T15:05:45.623558+00:00",
+  "title": "Design System: Caneyville.org",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.05880 306.75)",
+          "oklch(26.4% 0.05880 306.75)",
+          "oklch(37.9% 0.05880 306.75)",
+          "oklch(49.3% 0.05880 306.75)",
+          "oklch(60.7% 0.05880 306.75)",
+          "oklch(72.1% 0.05880 306.75)",
+          "oklch(83.6% 0.05880 306.75)",
+          "oklch(95.0% 0.05880 306.75)"
+        ]
+      },
+      "plum": {
+        "role": "primary",
+        "displayName": "Plum",
+        "tonalRamp": [
+          "oklch(15.0% 0.09832 305.65)",
+          "oklch(26.4% 0.09832 305.65)",
+          "oklch(37.9% 0.09832 305.65)",
+          "oklch(49.3% 0.09832 305.65)",
+          "oklch(60.7% 0.09832 305.65)",
+          "oklch(72.1% 0.09832 305.65)",
+          "oklch(83.6% 0.09832 305.65)",
+          "oklch(95.0% 0.09832 305.65)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.0% 0.03938 310.33)",
+          "oklch(26.4% 0.03938 310.33)",
+          "oklch(37.9% 0.03938 310.33)",
+          "oklch(49.3% 0.03938 310.33)",
+          "oklch(60.7% 0.03938 310.33)",
+          "oklch(72.1% 0.03938 310.33)",
+          "oklch(83.6% 0.03938 310.33)",
+          "oklch(95.0% 0.03938 310.33)"
+        ]
+      },
+      "lavender": {
+        "role": "neutral",
+        "displayName": "Lavender",
+        "tonalRamp": [
+          "oklch(15.0% 0.01846 306.66)",
+          "oklch(26.4% 0.01846 306.66)",
+          "oklch(37.9% 0.01846 306.66)",
+          "oklch(49.3% 0.01846 306.66)",
+          "oklch(60.7% 0.01846 306.66)",
+          "oklch(72.1% 0.01846 306.66)",
+          "oklch(83.6% 0.01846 306.66)",
+          "oklch(95.0% 0.01846 306.66)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15.0% 0.00283 308.43)",
+          "oklch(26.4% 0.00283 308.43)",
+          "oklch(37.9% 0.00283 308.43)",
+          "oklch(49.3% 0.00283 308.43)",
+          "oklch(60.7% 0.00283 308.43)",
+          "oklch(72.1% 0.00283 308.43)",
+          "oklch(83.6% 0.00283 308.43)",
+          "oklch(95.0% 0.00283 308.43)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15.0% 0.00000 89.88)",
+          "oklch(26.4% 0.00000 89.88)",
+          "oklch(37.9% 0.00000 89.88)",
+          "oklch(49.3% 0.00000 89.88)",
+          "oklch(60.7% 0.00000 89.88)",
+          "oklch(72.1% 0.00000 89.88)",
+          "oklch(83.6% 0.00000 89.88)",
+          "oklch(95.0% 0.00000 89.88)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "tonalRamp": [
+          "oklch(15.0% 0.02508 309.34)",
+          "oklch(26.4% 0.02508 309.34)",
+          "oklch(37.9% 0.02508 309.34)",
+          "oklch(49.3% 0.02508 309.34)",
+          "oklch(60.7% 0.02508 309.34)",
+          "oklch(72.1% 0.02508 309.34)",
+          "oklch(83.6% 0.02508 309.34)",
+          "oklch(95.0% 0.02508 309.34)"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "oklch(15.0% 0.08602 115.81)",
+          "oklch(26.4% 0.08602 115.81)",
+          "oklch(37.9% 0.08602 115.81)",
+          "oklch(49.3% 0.08602 115.81)",
+          "oklch(60.7% 0.08602 115.81)",
+          "oklch(72.1% 0.08602 115.81)",
+          "oklch(83.6% 0.08602 115.81)",
+          "oklch(95.0% 0.08602 115.81)"
+        ]
+      },
+      "button-hover": {
+        "role": "primary",
+        "displayName": "Button Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.10799 308.76)",
+          "oklch(26.4% 0.10799 308.76)",
+          "oklch(37.9% 0.10799 308.76)",
+          "oklch(49.3% 0.10799 308.76)",
+          "oklch(60.7% 0.10799 308.76)",
+          "oklch(72.1% 0.10799 308.76)",
+          "oklch(83.6% 0.10799 308.76)",
+          "oklch(95.0% 0.10799 308.76)"
+        ]
+      },
+      "light-button-hover": {
+        "role": "secondary",
+        "displayName": "Light Button Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.11694 117.98)",
+          "oklch(26.4% 0.11694 117.98)",
+          "oklch(37.9% 0.11694 117.98)",
+          "oklch(49.3% 0.11694 117.98)",
+          "oklch(60.7% 0.11694 117.98)",
+          "oklch(72.1% 0.11694 117.98)",
+          "oklch(83.6% 0.11694 117.98)",
+          "oklch(95.0% 0.11694 117.98)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "tonalRamp": [
+          "oklch(15.0% 0.04086 311.00)",
+          "oklch(26.4% 0.04086 311.00)",
+          "oklch(37.9% 0.04086 311.00)",
+          "oklch(49.3% 0.04086 311.00)",
+          "oklch(60.7% 0.04086 311.00)",
+          "oklch(72.1% 0.04086 311.00)",
+          "oklch(83.6% 0.04086 311.00)",
+          "oklch(95.0% 0.04086 311.00)"
+        ]
+      },
+      "panel-rule": {
+        "role": "neutral",
+        "displayName": "Panel Rule",
+        "tonalRamp": [
+          "oklch(15.0% 0.03282 309.89)",
+          "oklch(26.4% 0.03282 309.89)",
+          "oklch(37.9% 0.03282 309.89)",
+          "oklch(49.3% 0.03282 309.89)",
+          "oklch(60.7% 0.03282 309.89)",
+          "oklch(72.1% 0.03282 309.89)",
+          "oklch(83.6% 0.03282 309.89)",
+          "oklch(95.0% 0.03282 309.89)"
+        ]
+      },
+      "resource-hover": {
+        "role": "primary",
+        "displayName": "Resource Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.10957 311.28)",
+          "oklch(26.4% 0.10957 311.28)",
+          "oklch(37.9% 0.10957 311.28)",
+          "oklch(49.3% 0.10957 311.28)",
+          "oklch(60.7% 0.10957 311.28)",
+          "oklch(72.1% 0.10957 311.28)",
+          "oklch(83.6% 0.10957 311.28)",
+          "oklch(95.0% 0.10957 311.28)"
+        ]
+      },
+      "inverse-copy": {
+        "role": "neutral",
+        "displayName": "Inverse Copy",
+        "tonalRamp": [
+          "oklch(15.0% 0.02782 309.19)",
+          "oklch(26.4% 0.02782 309.19)",
+          "oklch(37.9% 0.02782 309.19)",
+          "oklch(49.3% 0.02782 309.19)",
+          "oklch(60.7% 0.02782 309.19)",
+          "oklch(72.1% 0.02782 309.19)",
+          "oklch(83.6% 0.02782 309.19)",
+          "oklch(95.0% 0.02782 309.19)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Section headline",
+        "purpose": "Visible section headings; fluid with viewport width."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "General third-level headings."
+      },
+      "intro": {
+        "displayName": "Opening introduction",
+        "purpose": "Short resident-focused opening paragraph; 17px at and below 900px."
+      },
+      "body": {
+        "displayName": "Reading body",
+        "purpose": "Substantive paragraphs."
+      },
+      "business-name": {
+        "displayName": "Business name",
+        "purpose": "Directory entry heading."
+      },
+      "button": {
+        "displayName": "Action label",
+        "purpose": "Filled and outline buttons."
+      },
+      "metadata": {
+        "displayName": "Supporting metadata",
+        "purpose": "Categories, source, legal and ownership context."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-background",
+        "value": "background-color .18s ease-out",
+        "purpose": "Button hover color; removed when reduced motion is requested."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "In-page navigation; switches to auto for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "900px"
+      },
+      {
+        "name": "single-column",
+        "value": "700px"
+      },
+      {
+        "name": "wide-desktop",
+        "value": "1500px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact link action; standard primary treatment.",
+      "html": "<a class=\"ds-button-primary\" href=\"#directory\">Find a local business <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-button-primary{font-family:var(--body,Archivo,Arial,sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:26px;min-height:50px;padding:13px 21px;border:0;border-radius:6px;background:var(--plum,#43265e);color:var(--white,#fff);font-size:14px;font-weight:650;line-height:1.5;text-decoration:none;transition:background-color .18s ease-out}.ds-button-primary:hover{background:#5b3776}.ds-button-primary:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+    },
+    {
+      "name": "Outline action",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Compact link action; standard outline treatment.",
+      "html": "<a class=\"ds-button-outline\" href=\"#directory\">Find a local business <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-button-outline{font-family:var(--body,Archivo,Arial,sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:26px;min-height:50px;padding:13px 21px;border:1px solid var(--plum,#43265e);border-radius:6px;background:transparent;color:var(--plum,#43265e);font-size:14px;font-weight:650;line-height:1.5;text-decoration:none;transition:background-color .18s ease-out}.ds-button-outline:hover{background:var(--lavender,#eee8f5)}.ds-button-outline:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button-outline{transition:none}}"
+    },
+    {
+      "name": "Light action",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Compact link action; use on a dark plum field.",
+      "html": "<a class=\"ds-button-light\" href=\"#directory\">Find a local business <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-button-light{font-family:var(--body,Archivo,Arial,sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:26px;min-height:50px;padding:13px 21px;border:0;border-radius:6px;background:var(--accent,#e2edab);color:var(--plum,#43265e);font-size:14px;font-weight:650;line-height:1.5;text-decoration:none;transition:background-color .18s ease-out}.ds-button-light:hover{background:#d4e68b}.ds-button-light:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button-light{transition:none}}"
+    },
+    {
+      "name": "Clear filters",
+      "kind": "button",
+      "refersTo": "text-button",
+      "description": "Underlined, transparent utility action.",
+      "html": "<button class=\"ds-clear\" type=\"button\">Clear filters</button>",
+      "css": ".ds-clear{font-family:var(--body,Archivo,Arial,sans-serif);border:0;background:transparent;color:var(--plum,#43265e);padding:10px 0;min-height:44px;font-size:13px;text-decoration:underline;text-underline-offset:.2em;cursor:pointer}.ds-clear:hover{text-decoration-thickness:2px}.ds-clear:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}.ds-clear:disabled{opacity:.5;cursor:default}"
+    },
+    {
+      "name": "Business search",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Native search field with an inset SVG magnifier.",
+      "html": "<label class=\"ds-label\" for=\"ds-search\">Find a business</label><div class=\"ds-search-wrap\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 4.5 4.5\"/></svg><input id=\"ds-search\" class=\"ds-search\" type=\"search\" placeholder=\"Try pharmacy, auto, salon…\"></div>",
+      "css": ".ds-label{font-family:var(--body,Archivo,Arial,sans-serif);display:block;font-size:13px;font-weight:600;margin-bottom:7px;color:var(--ink,#30203f)}.ds-search-wrap{position:relative}.ds-search-wrap svg{position:absolute;top:16px;left:16px;width:22px;height:22px;color:var(--muted,#685b72);pointer-events:none}.ds-search{font-family:var(--body,Archivo,Arial,sans-serif);width:100%;height:54px;border:1px solid #a99ab4;border-radius:5px;background:var(--white,#fff);color:var(--ink,#30203f);font-size:16px;padding:12px 18px 12px 51px}.ds-search::placeholder{color:var(--muted,#685b72);opacity:1}.ds-search:hover{border-color:var(--plum,#43265e)}.ds-search:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}"
+    },
+    {
+      "name": "Category selector",
+      "kind": "input",
+      "refersTo": "category-select",
+      "description": "Native category filtering control.",
+      "html": "<label class=\"ds-category-label\" for=\"ds-category\">Browse by category</label><select id=\"ds-category\" class=\"ds-category\"><option>All businesses</option><option>Health</option><option>Retail &amp; Grocery</option></select>",
+      "css": ".ds-category-label{font-family:var(--body,Archivo,Arial,sans-serif);display:block;font-size:13px;font-weight:600;margin-bottom:7px;color:var(--ink,#30203f)}.ds-category{font-family:var(--body,Archivo,Arial,sans-serif);width:100%;height:54px;border:1px solid #a99ab4;border-radius:5px;background:var(--white,#fff);color:var(--ink,#30203f);font-size:16px;padding:12px 36px 12px 15px}.ds-category:hover{border-color:var(--plum,#43265e)}.ds-category:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}"
+    },
+    {
+      "name": "Topic navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Plain masthead links with underline hover.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><a href=\"#directory\">Businesses</a><a href=\"#history\">History</a><a href=\"#resources\">Useful links</a></nav>",
+      "css": ".ds-nav{font-family:var(--body,Archivo,Arial,sans-serif);display:flex;align-items:center;gap:30px;color:var(--ink,#30203f)}.ds-nav a{padding:14px 0;font-size:14px;font-weight:600;text-decoration:none;color:inherit}.ds-nav a:hover{color:var(--plum,#43265e);text-decoration:underline}.ds-nav a:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}@media(max-width:700px){.ds-nav{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-nav a{font-size:15px;padding:12px 0}}"
+    },
+    {
+      "name": "Everyday service panel",
+      "kind": "custom",
+      "refersTo": "service-panel",
+      "description": "Lavender practical links with the asymmetric top-right corner.",
+      "html": "<aside class=\"ds-services\"><h2>Everyday links.</h2><ul><li><a href=\"https://caneyville.ky.gov/\"><span>City of Caneyville<small>Official government website</small></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></li><li><a href=\"https://www.graysoncountyschools.com/o/caneyville\"><span>Caneyville Elementary<small>School news, calendar &amp; enrollment</small></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></li></ul></aside>",
+      "css": ".ds-services{font-family:var(--body,Archivo,Arial,sans-serif);padding:28px 30px 8px;background:var(--lavender,#eee8f5);color:var(--ink,#30203f);border-radius:0 24px 0 0}.ds-services h2{margin:0 0 16px;font-size:25px;font-weight:700;line-height:1.12;letter-spacing:-.02em}.ds-services ul{margin:0;padding:0;list-style:none}.ds-services li+li{border-top:1px solid #d2c6dc}.ds-services a{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:74px;padding:15px 0;color:inherit;text-decoration:none;font-weight:600;font-size:15px;line-height:1.65}.ds-services small{display:block;margin-top:2px;color:var(--muted,#685b72);font-weight:400;font-size:12px}.ds-services a:hover{color:#744c8d}.ds-services a:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}@media(max-width:700px){.ds-services{padding:23px 23px 4px;border-radius:0 20px 0 0}}"
+    },
+    {
+      "name": "Open business row",
+      "kind": "custom",
+      "refersTo": "business-row",
+      "description": "Ruled directory entry without an enclosing card.",
+      "html": "<article class=\"ds-biz\"><span class=\"ds-biz-category\">Health</span><h3><a href=\"https://www.midwaypharmacygroup.com/locations/midway-pharmacy-caneyville\">Midway Pharmacy</a></h3><p>Retail pharmacy and prescriptions</p><a class=\"ds-biz-contact\" href=\"https://www.midwaypharmacygroup.com/locations/midway-pharmacy-caneyville\">Website</a></article>",
+      "css": ".ds-biz{font-family:var(--body,Archivo,Arial,sans-serif);border-top:1px solid var(--rule,#d8cfe0);padding:21px 0 19px;color:var(--ink,#30203f)}.ds-biz-category{display:block;font-size:12px;line-height:1.5;color:var(--muted,#685b72);margin-bottom:5px}.ds-biz h3{margin:0;font-size:17px;font-weight:650;line-height:1.45;letter-spacing:-.015em}.ds-biz h3 a{color:inherit;text-decoration:none}.ds-biz p{font-size:13px;color:var(--muted,#685b72);margin:4px 0 0;line-height:1.6}.ds-biz-contact{display:inline-flex;align-items:center;min-height:36px;margin-top:5px;color:var(--plum,#43265e);font-weight:550;font-size:12px;text-underline-offset:.22em}.ds-biz a:hover{text-decoration:underline;text-decoration-thickness:2px}.ds-biz a:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}"
+    },
+    {
+      "name": "Question disclosure",
+      "kind": "custom",
+      "refersTo": "disclosure",
+      "description": "Native details and summary with ruled separation.",
+      "html": "<details class=\"ds-question\"><summary>Is this the city government’s website?</summary><p>Caneyville.org is an independent community project owned by Twin Lakes Web Co. LLC.</p></details>",
+      "css": ".ds-question{font-family:var(--body,Archivo,Arial,sans-serif);color:var(--ink,#30203f);border-top:1px solid var(--rule,#d8cfe0);border-bottom:1px solid var(--rule,#d8cfe0)}.ds-question summary{cursor:pointer;min-height:64px;padding:19px 0;font-size:15px;font-weight:550}.ds-question summary::marker{color:var(--plum,#43265e)}.ds-question summary:focus-visible{outline:3px solid var(--plum,#43265e);outline-offset:5px;}.ds-question p{font-size:16px;line-height:1.7;margin:3px 0 22px;max-width:70ch}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The cooperative community circular",
+    "overview": "Caneyville.org uses the familiar density of a local circular: a compact nameplate, open listings, practical service columns and clear reading sections. The character is direct and neighborly. Plum references the local Purple Flash identity; pale lavender and white keep long information pages light.\n\nArchivo carries both the nameplate and ordinary reading. Rules and tonal fields organize the information without decoration or floating cards. The supplied Kentucky map is a specific identity asset with transparent ground, original linework and a red location marker; its page placement belongs to the home surface contract, not a universal heading rule.",
+    "keyCharacteristics": [
+      "Plum type and controls on paper, lavender and white.",
+      "Open directory rows and ruled service lists.",
+      "One self-hosted type family with a compact, strong heading voice.",
+      "Flat sections, restrained rounded controls and one asymmetric service-panel corner.",
+      "Direct interactions with visible keyboard focus and reduced-motion support."
+    ],
+    "rules": [
+      {
+        "name": "The Tonal Structure Rule",
+        "body": "Organize information through paper, white, lavender and plum fields, with thin purple-family rules separating rows.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Baseline Rule",
+        "body": "Keep substantive paragraph copy at the body size or larger; reserve the smaller sizes for controls and supporting metadata.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Circular Rule",
+        "body": "Keep information surfaces flat and separate them with tone and rules.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use plum, lavender, paper and white to distinguish practical information regions.",
+      "Do preserve open, ruled lists and the shared 16px reading baseline.",
+      "Do keep inline SVG symbols functional, with visible focus for keyboard interactions.",
+      "Do preserve the supplied map's transparent ground and location marker when reusing that asset.",
+      "Do keep reduced-motion and no-JavaScript access intact."
+    ],
+    "donts": [
+      "Don't introduce shadows, decorative grain or stock photographs into this circular's visual language.",
+      "Don't convert directory rows into a boxed card grid.",
+      "Don't turn source notes, category labels or controls into decorative uppercase kickers.",
+      "Don't make the home map treatment a requirement for every future heading."
+    ]
+  }
+}
